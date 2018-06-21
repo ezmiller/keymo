@@ -14,7 +14,7 @@ def extract_keywords():
     response = Response(
         response=json.dumps(list(get_keywords(document))),
         status=200,
-        mimetype="applicatuon/json",
+        mimetype="application/json",
     )
 
     return response
