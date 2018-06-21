@@ -1,6 +1,9 @@
 from flask import Flask, request, json, Response
 from keywords import get_keywords
+from flask_cors import CORS
+
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/')
