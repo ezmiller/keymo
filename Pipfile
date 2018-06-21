@@ -9,6 +9,7 @@ gensim = "*"
 pandas = "*"
 nltk = "*"
 react = "*"
+flask-cors = "*"
 
 [dev-packages]
 
