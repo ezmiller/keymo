@@ -9,7 +9,8 @@ app.debug = True
 
 @app.route('/')
 def root():
-    return 'hello'
+    return 'Extract keywords at /keywords'
+
 
 @app.route("/keywords", methods=['POST'])
 def extract_keywords():
