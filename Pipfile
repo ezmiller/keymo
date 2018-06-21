@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 flask = "*"
+gensim = "*"
+pandas = "*"
+nltk = "*"
 
 [dev-packages]
 
