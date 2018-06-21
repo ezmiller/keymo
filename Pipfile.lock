@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ff8259e8f337ed28974b73f3613920c7c67add77fdaa02e537241d3cbb31a2a1"
+            "sha256": "e49b4f2e6f999f487f1e502146118e35768c3ba36bc6ffa6176758adb585271e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -25,17 +25,17 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:256bd2c35f450eee8c978166a2391ae9fab88b25443d4c321a6889166697d260",
-                "sha256:e647c065c3a9db1ea210fd9b082d630072e69e40e8524149819121082d4e0192"
+                "sha256:3f1196075570fee438afb28d8762616d111d220b2ba15fd83e340c46fc3f8cb1",
+                "sha256:534eb2bde29b89cac7d79dc817dad74649b033d8484b375a7a5269b2bd9ddbc1"
             ],
-            "version": "==1.7.39"
+            "version": "==1.7.42"
         },
         "botocore": {
             "hashes": [
-                "sha256:87fe59966e2a31efbb80b279bc0dc7273bc4c058cdd49f957de402804a544828",
-                "sha256:8caf8c8a165e8f1d880d952a4aaf05fdd57e0857f6d5640fe267840bdc2ae667"
+                "sha256:4767a0369b1414a8e59bbdd5e0c06213e545bc2a38892f79d3b8fa4e04a18f4b",
+                "sha256:7dcb10471a2f6eea0d9ccf31d25411de519f108218772682ed603a30bbb38ae8"
             ],
-            "version": "==1.10.39"
+            "version": "==1.10.42"
         },
         "bz2file": {
             "hashes": [
@@ -178,6 +178,12 @@
             ],
             "version": "==1.14.5"
         },
+        "optional-django": {
+            "hashes": [
+                "sha256:2cd56b864ecf88e420aa882209ca7849114f38bc7089344cc9e476ea91aeb010"
+            ],
+            "version": "==0.3.0"
+        },
         "pandas": {
             "hashes": [
                 "sha256:211cfdb9f72f26d2ede21c751d27e08fed4434d47fb9bb82ebc8ff753888b8b6",
@@ -204,7 +210,6 @@
                 "sha256:1adb80e7a782c12e52ef9a8182bebeb73f1d7e24e374397af06fb4956c8dc5c0",
                 "sha256:e27001de32f627c22380a688bcc43ce83504a7bc5da472209b4c70f02829f0b8"
             ],
-            "markers": "python_version >= '2.7'",
             "version": "==2.7.3"
         },
         "pytz": {
@@ -213,6 +218,13 @@
                 "sha256:c06425302f2cf668f1bba7a0a03f3c1d34d4ebeef2c72003da308b3947c7f749"
             ],
             "version": "==2018.4"
+        },
+        "react": {
+            "hashes": [
+                "sha256:6eb3bcb9928f72b3884d33304ba6575b8293ff777a9379abafdbe13b81680f45"
+            ],
+            "index": "pypi",
+            "version": "==4.1.1"
         },
         "requests": {
             "hashes": [

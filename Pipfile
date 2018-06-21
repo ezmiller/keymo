@@ -8,6 +8,7 @@ flask = "*"
 gensim = "*"
 pandas = "*"
 nltk = "*"
+react = "*"
 
 [dev-packages]
 
