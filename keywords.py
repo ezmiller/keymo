@@ -37,9 +37,10 @@ def get_unigrams(phrase, tags=('NN')):
 
 
 def get_tokens(doc):
-    # this one is super slow. wonder why?
-    unigrams = [tuple([word]) for word in get_unigrams(doc, ('NNP', 'NN'))]
-    bigrams = list(get_pairs(doc))
+    tags = ('NN', 'NNS')
+    tag_combos = (('JJ', 'NN'), ('NNP', 'NNP'))
+    unigrams = [tuple([word]) for word in get_unigrams(doc, tags=tags)]
+    bigrams = list(get_pairs(doc, tag_combos=tag_combos))
     return unigrams + bigrams
 
 
