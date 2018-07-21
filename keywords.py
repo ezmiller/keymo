@@ -2,6 +2,9 @@ import nltk
 import gensim
 import logging
 
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
                     level=logging.INFO)
 
